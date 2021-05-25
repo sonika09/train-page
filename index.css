@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+
+
+.header{
+    display: flex;
+    height:60px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-img{
+    margin-top: 10px;
+    height: 60px;
+    width:87px;
+}
+.logo-img1{
+    margin-top:10px;
+    height: 65px;
+    width: 50px;
+    float:right;
+}
+.right-sec{
+    display: flex;
+}
+.bg-img{
+    background-image: url("https://wallpaperaccess.com/full/1339875.jpg");
+    height:100vh;
+    width:100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.grid-container{
+  position: relative;
+  justify-content: space-between;
+  margin: 61px 30px 52px 30px;
+  padding: 25px;
+  background-color: white;
+
+}
+.grid-container .input{
+    display: flex;
+    flex-direction: row;
+}
+.grid-container .input input{
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    margin:10px;
+}
+
+.font-awesome-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 10px;
+}
+.to .font-awesome-icon1 input{
+    margin:  0px 10px;
+    width: 200px !important;
+    padding: 10px !important;
+}
+.font-awesome-icon1{
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.grid-container .to{
+    display: flex;
+    flex-direction: row;
+}
+.font-awesome-icon2 {
+    margin: 0px 10px;
+}
+.general .font-awesome-icon2 input{
+    margin: 15px 2px;
+    width: 200px !important;
+    padding: 12px !important;
+}
+.text {
+    background-color: white;
+    position:absolute;
+    margin-left: 32px;
+    width:604px;
+    top:570px;
+    
+
+}
+.checkbox{
+    margin-left: 30px;
+}
+.checkbox1{
+margin-left: 30px;
+}
+#item2{
+ margin-left:20px;
+}
+.button{
+    width:100px;
+    margin-left: 30px;
+    padding:5px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+
+.col-2{
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 10%;
+    color: white;
+    font-size: 50px;
+    font-style: normal;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    position: relative;
+    top: 61px;
+    text-align: center;
+    margin-left: 31px;
+    margin-bottom: 5px;
+    color:white;
+    font-weight: bold;
+    
+    
+    
+}
+.charts{
+    margin-right:32px;
+    background-color: steelblue;
+    width:49%;
+    padding:20px;
+
+}
+.PNR{
+    background-color: steelblue;
+    width:49%;
+    margin-right: 10px;
+    padding:20px;
+}
+.p1{
+    position:absolute;
+    right: 264px;
+    top: 278px;
+    color:red;
+    font-size:25px;
+    text-shadow: 2px 2px 4px blue;
+
+}
+select#classes{
+    margin:  0px 10px;
+    width: 225px !important;
+    padding: 10px !important;
+}
+select#general{
+    margin:  8px 0px;
+    width: 225px !important;
+    padding: 10px !important;
+}
+select#from{
+    margin:  0px 10px;
+    width: 222px !important;
+    padding: 10px !important;
+}
+select#to{
+    margin:  0px 10px;
+    width: 222px !important;
+    padding: 10px !important;
+}
+.button{
+    text-align: center;
+}
+
+#alert{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.6);
+    z-index: 1001;
+}
+
+#popup {
+    width: 565px;
+    height: 375px;
+    background: #FFFFFF;
+    position: relative;
+    top: 150px;
+    left: 375px;
+    padding:10px;
+    
+} 
+#guidelines{
+    background-color:blue;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+#content{
+    font-weight: bold;
+}
+#mask{
+    font-weight: bold;
+    color:blue;
+}
+#ok{
+    position:absolute;
+    left:270px;
+    top:350px;
+    background-color: orange;
+    padding: 5px 5px;
+    
+
+}
